@@ -1,43 +1,47 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
-    <h6>Hello World</h6>
-    
-    
-    
-    <table border='1' cellspacing='0' >
-        <tr>
-            <th>±Û¹øÈ£</th>
-            <th>±ÛÁ¦¸ñ</th>
-            <th>ÀÛ¼ºÀÚ</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>¾È³ç</td>
-            <td>µÑ¸®</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>¾È³ç</td>
-            <td>¸¶ÀÌÄİ</td>
-        </tr>
-    <table>
+	<h1>Hello World</h1>
+	<h2>Hello World</h2>
+	<h3>Hello World</h3>
+	<h4>Hello World</h4>
+	<h5>Hello World</h5>
+	<h6>Hello World</h6>
+	
+	<table border='1' cellspacing='0' cellpadding="10">
+		<tr>
+			<th>ê¸€ë²ˆí˜¸</th>
+			<th>ê¸€ì œëª©</th>
+			<th>ì‘ì„±ì</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>ì•ˆë…•</td>
+			<td>ë‘˜ë¦¬</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>ì•ˆë…•</td>
+			<td>ë§ˆì´ì½œ</td>
+		</tr>
+	</table>
+	<br/>
+	<img src='/helloweb/assets/images/a.jpg' style="width:150px; border:1px solid #999"/>
+	<br/>
+	<img src='assets/images/a.jpg' style="width:150px; border:1px solid #999"/>
     <br/>
-    <img src='/helloweb/assets/images/a.jpg' style="width:80px; boader:1px solid #999" />
-    <br/>
-    <img src='assets/images/a.jpg' style="width:80px; boader:1px solid #999" />
-    
-    
+    <a href="form.jsp">í¼ìœ¼ë¡œê°€ê¸°</a>
+    <a href="/helloweb/hello.jsp?name=ì„±ì°½í˜„&email=eogkdfh@gmail.com">hello</a>
+    <p>
+    ì •ë³´: Using a shared selector for servlet write/read<br/>
+10ì›” 07, 2021 3:10:10 ì˜¤í›„ org.apache.catalina.startup.Catalina load<br/>
+ì •ë³´: Initialization processed in 1159 ms
+    </p>
 </body>
 </html>
