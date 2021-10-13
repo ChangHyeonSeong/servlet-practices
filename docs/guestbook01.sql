@@ -14,3 +14,5 @@ select no, name, date_format(reg_date, '%Y/%m/%d %H:%i:%s'), message, password
    from guestbook
   where no =1
     and password = '1234';
+    
+    
