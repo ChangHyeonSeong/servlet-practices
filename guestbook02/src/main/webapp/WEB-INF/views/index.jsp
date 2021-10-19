@@ -2,7 +2,7 @@
 <%@page import="com.douzone.guestbook.vo.GuestBookVo"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
-      List<GuestBookVo> list = (List<GuestBookVo>)request.getAttribute("list");
+List<GuestBookVo> list = (List<GuestBookVo>)request.getAttribute("list");
 %>
 <html>
 <head>
@@ -27,7 +27,7 @@
 	
 	<%
 		for(GuestBookVo vo : list) {
-	%>
+		%>
 	
 	<br>
 	<table width=510 border=1>
