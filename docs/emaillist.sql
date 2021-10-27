@@ -14,4 +14,4 @@ order by no desc;
 
 delete from emaillist where no = 2;
 
-
+select * from user;
